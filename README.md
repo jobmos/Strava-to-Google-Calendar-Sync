@@ -1,5 +1,5 @@
 # Strava to Google Calendar Sync
-This utility checks recent activities on Strava and uploads them to your Google Calendar if the ativity is not already present. Checking if the activity exists is based on the Strava activity ID.
+This utility checks recent activities on Strava and uploads them to your Google Calendar if the ativity is not already present. Checking if the activity exists is based on the Strava activity ID. Using Docker is slightly overkill, but due to local development on Mac and publishing on Raspberry Pi I decided to go for Docker. Python venv would probably work as well.
 
 ## Prerequisits
 - Strava account
