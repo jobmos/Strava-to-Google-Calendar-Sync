@@ -1,10 +1,13 @@
 import configparser
+from datetime import datetime
 from App import App
 from GoogleService import GoogleService
 from StravaService import StravaService
 
 
 def main():
+    print('Current time: {}'.format(datetime.now()))
+
     config = configparser.ConfigParser()
     config.read('app.ini')
 
